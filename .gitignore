@@ -1,0 +1,33 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.DS_Store
+
+UNI_VERSE_REST_API_찜기능추가_1-69.csv
+UNI_VERSE_백엔드_개발_규칙_v1.0.md
+
+# AI Server
+__pycache__/
+*.pyc
+univenv/
+venv/
+ai-server/models/*.pkl
+!ai-server/models/tfidf_vectorizer.pkl
+!ai-server/models/fraud_classifier.pkl
+!ai-server/models/category_classifier.pkl
+ai-server/data/
+ai-server/reports/
+
+# Backend Uploads
+backend/uploads/
+
+# Docker image exports; keep Dockerfiles, .dockerignore, and Compose files tracked.
+/docker-images/
+*-docker-images.tar*
+*-Docker-Images.tar*
+/UNI-VERSE-Docker-Images.tar.gz
+/universe-frontend.tar.gz
+/universe-backend.tar.gz
+/universe-ai.tar.gz
